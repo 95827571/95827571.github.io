@@ -1,0 +1,54 @@
+#title-wrapper {
+    /* margin-top: 15vh; */
+    margin-top: 15vh;
+    margin-left: 12vw;
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+#title-text {
+    color: rgb(251, 246, 229);
+    font-size: 12vh;
+    font-weight: 900;
+}
+
+#title-description {
+    margin-top: 0;
+    font-size: 6vh;
+    font-weight: 700;
+    color: rgb(251, 246, 229);
+}
+
+#about-me-wrapper {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    color: rgb(251, 246, 229);
+    font-size: 4vh;
+    font-weight: 900;
+    min-height: 10vh;
+    margin-bottom: 15vh;
+}
+
+#about-me-wrapper p {
+    font-size: 2.5vh;
+    color: rgb(251, 246, 229);
+    padding-top: 0.7vh;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+    padding-bottom: 0.7vh;
+}
+
+#explore-button {
+    background-color: rgb(251, 246, 229);
+    resize: both;
+    max-width: fit-content;
+    border-radius: 5px;
+    top: 48vh;
+    left: 23.5vh;
+}
+
+#explore-button a {
+    font-size: 1.2vw;
+    color:rgb(54, 54, 54)
+}
