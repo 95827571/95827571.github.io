@@ -16,20 +16,44 @@
             <li><a href="contact.html" class="styled-link">Contact</a></li>
         </ul>
     </div>
-    <div id="contact-form-wrapper">
-        <form action="" id="contact-form">
-            <input type="text" id="contact-form-firstname" name="firstname" placeholder="John">
-
-            <input type="text" id="contact-form-lastname" name="lastname" placeholder="Doe">
-
-            <input type="email" id="contact-form-email" name="email" placeholder="someone@example.com">
-
-            <textarea id="contact-form-subject" name="subject" placeholder="We want to hire you!"></textarea>
-
-            <textarea id="contact-form-message" name="message" placeholder="Message about how you would like to hire me!"></textarea>
-
-            <input id="contact-form-submit" type="submit" value="Submit">
-        </form>
+    <div id="contact-page-wrapper">
+        <div id="contact-form-wrapper">
+            <form action="" id="contact-form">
+                <input type="text" id="contact-form-firstname" name="firstname" placeholder="John">
+    
+                <input type="text" id="contact-form-lastname" name="lastname" placeholder="Doe">
+    
+                <input type="email" id="contact-form-email" name="email" placeholder="someone@example.com">
+    
+                <textarea id="contact-form-subject" name="subject" placeholder="We want to hire you!"></textarea>
+    
+                <textarea id="contact-form-message" name="message" placeholder="Message about how you would like to hire me!"></textarea>
+    
+                <input id="contact-form-submit" type="submit" value="Submit">
+            </form>
+        </div>
+        <div id="contact-links-wrapper">
+            <a href="https://github.com/95827571" class="styled-link" target="_blank">
+                <div class="contact-link-button">
+                    <img src="../images/github-logo-image.png">
+                    <h1>Github</h1>
+                </div>
+            </a>
+            <button onclick="copyText(`philip#7465`)" class="styled-button">
+                <div class="contact-link-button">
+                    <img src="../images/discord-logo-image.png">
+                    <h1>Discord</h1>
+                </div>
+            </button>
+        </div>
     </div>
+
+
+    <script>
+        const copyText = (text) => {
+            navigator.clipboard.writeText(text);
+        }
+
+    </script>
 </body>
 </html>

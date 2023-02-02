@@ -1,9 +1,26 @@
+#contact-page-wrapper {
+    display: flex;
+    align-items: center;
+}
+
 #contact-form-wrapper {
     display:flex;
     align-items: center;
     justify-content: flex-start;
-    width: 50vw;
     height: 100vh;
+    width: 50%;
+    margin: 0;
+}
+
+#contact-links-wrapper {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+    height: 100vh;
+    width: 50%;
+    margin: 0;
 }
 
 #contact-form {
@@ -79,4 +96,33 @@
 
 #contact-form-submit {
     width: 12vw;
+}
+
+.contact-link-button {
+    background-color: rgb(44, 44, 44);
+    height: 8vh;
+    width: 25vw;
+    border-radius: 50px;
+    box-shadow: rgba(50, 100, 83, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: transform 0.4s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-link-button img {
+    height: 5vh;
+    width: 5vh;
+    margin-left: 1vw;
+    filter: invert(100%)
+}
+
+.contact-link-button h1 {
+    margin-left: 1vw;
+    font-weight: 750;
+    font-size: 4.5vh;
+}
+
+.contact-link-button:hover {
+    transform: scale(1.04);
 }
